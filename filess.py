@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 #usage basic pour du fuzzing :  python3 filess -u https://tesla.com/index.html 
 #usage analyse de code source:  python3 filess -u https://tesla.comindex.html --source --json
+#vous pouvez aussi l'ajouter a votre patch dans votre terminal et l'utiliser dans tout les répertoire en faisant " filess -u https://tela.com/index.php"
+
+#by Pikachu :)
 
 import time
 import requests
@@ -20,7 +23,7 @@ console.print("""
                                
 [/bold cyan]
 [dim]                 FILESS[/dim]
-[dim]          [blue][Web Recon & analyse de code Source[/blue]  [/dim]
+[dim]          [yellow]OUtils de Web Recon & analyse de code Source coder par Pikachu[/yellow]  [/dim]
 """)
 
 parser = argparse.ArgumentParser(description="Analyse d'url et enumeration de point de terminaison")
