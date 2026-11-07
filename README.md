@@ -15,6 +15,6 @@ Usage:
 lorsque vous utiliser l'option : --source ajoutez ensuite --json pour que la source sois enregistrer correctement. et ouvrez le pour l'analyser. si rien à été trouver, vous le verrez dans le terminal du genre :
 <img width="637" height="175" alt="image" src="https://github.com/user-attachments/assets/21c69ecf-4a69-4396-8ca4-b08b543392d5" />
 
-🚨 IMPORT: Outils à utiliser sur des cible sur le quel vous avez le droit d'auditer.
+🚨 IMPORT: Outils à utiliser sur des cibles sur le quel vous avez le droit d'auditer.
 
 By Pikachu
