@@ -18,11 +18,12 @@ console = Console()
 console.print("""
 [bold cyan]
    ___ __ __                   
- .'  _|__|  .-----.-----.-----.
+ .'  _|__|  .-----.-----.-----. Version 1.0
  |   _|  |  |  -__|__ --|__ --|
  |__| |__|__|_____|_____|_____|
                                
 [/bold cyan]
+[green]by Pikachu[/green]
 [dim]                 FILESS[/dim]
 [dim]          [yellow]OUtils de Web Recon & analyse de code Source coder par Pikachu[/yellow]  [/dim]
 """)
