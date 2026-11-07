@@ -74,7 +74,7 @@ def enum(url):
     wordlist_path = args.wordlist or "/usr/local/share/filess-wordlist.txt"
     method = "GET"
     console.print(f"[bold purple][+] Cible : {url}[/bold purple] | HTTP method: {method} | [cyan] timeout : {args.timeout} | rate-limit : {args.rate_limit} [/cyan]")
-    console.print("Tailles de la wordlist par defaut : +31k  ")
+    console.print("Tailles de la wordlist par defaut : +29k  ")
     time.sleep(1)
     console.print("fuzzing en cours...")
     time.sleep(1)
