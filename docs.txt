@@ -1,0 +1,70 @@
+# Installation de FILESS
+
+## 1. Installer les dépendances
+
+```bash
+pip3 install requests rich
+```
+
+## 2. Installer FILESS
+
+Depuis le dossier contenant `filess.py` :
+
+```bash
+sudo cp filess.py /usr/local/bin/filess
+sudo chmod +x /usr/local/bin/filess
+```
+
+## 3. Installer la wordlist
+
+FILESS utilise par défaut :
+
+```text
+/usr/local/share/filess-wordlist.txt
+```
+
+Créer le dossier :
+
+```bash
+sudo mkdir -p /usr/local/share
+```
+
+Puis copier la wordlist :
+
+```bash
+sudo cp wordlist.txt /usr/local/share/filess-wordlist.txt
+```
+
+## 4. Vérifier l'installation
+
+```bash
+which filess
+```
+
+Résultat attendu :
+
+```text
+/usr/local/bin/filess
+```
+
+Vérifier également la wordlist :
+
+```bash
+ls -lh /usr/local/share/filess-wordlist.txt
+```
+
+## 5. Utilisation
+
+FILESS peut maintenant être exécuté depuis n'importe quel dossier :
+
+```bash
+filess -u https://example.com
+```
+
+Avec une autre wordlist :
+
+```bash
+filess -u https://example.com -w wordlist.txt
+```
+
+by Pikachu
