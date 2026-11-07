@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 #usage basic pour du fuzzing :  python3 filess -u https://tesla.com/index.html 
-#usage analyse de code source:  python3 filess -u https://tesla.comindex.html --source --json
+#usage analyse de code source:  python3 filess -u https://tesla.com/index.html --source --json
+#le mieux : filess -u https://tesla.com/html.com
 #vous pouvez aussi l'ajouter a votre patch dans votre terminal et l'utiliser dans tout les répertoire en faisant " filess -u https://tela.com/index.php"
 
 #by Pikachu :)
